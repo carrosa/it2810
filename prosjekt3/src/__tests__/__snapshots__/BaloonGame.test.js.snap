@@ -1,0 +1,223 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<BaloonGame /> renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "black",
+      "height": 1334,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "height": 100,
+        "left": 221,
+        "position": "absolute",
+        "top": 1334,
+        "width": 100,
+      }
+    }
+  >
+    <View
+      accessible={true}
+      isTVSelectable={true}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "height": 100,
+          "opacity": 1,
+          "position": "absolute",
+          "width": 100,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "backgroundColor": "blue",
+            "borderRadius": 50,
+            "height": 100,
+            "position": "absolute",
+            "width": 100,
+          }
+        }
+      />
+    </View>
+  </View>
+  <View
+    style={
+      Object {
+        "height": 100,
+        "left": 164,
+        "position": "absolute",
+        "top": 1334,
+        "width": 100,
+      }
+    }
+  >
+    <View
+      accessible={true}
+      isTVSelectable={true}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "height": 100,
+          "opacity": 1,
+          "position": "absolute",
+          "width": 100,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "backgroundColor": "green",
+            "borderRadius": 50,
+            "height": 100,
+            "position": "absolute",
+            "width": 100,
+          }
+        }
+      />
+    </View>
+  </View>
+  <View
+    style={
+      Object {
+        "height": 100,
+        "left": 144,
+        "position": "absolute",
+        "top": 1334,
+        "width": 100,
+      }
+    }
+  >
+    <View
+      accessible={true}
+      isTVSelectable={true}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "height": 100,
+          "opacity": 1,
+          "position": "absolute",
+          "width": 100,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "backgroundColor": "orange",
+            "borderRadius": 50,
+            "height": 100,
+            "position": "absolute",
+            "width": 100,
+          }
+        }
+      />
+    </View>
+  </View>
+  <View
+    style={
+      Object {
+        "height": 100,
+        "left": 664,
+        "position": "absolute",
+        "top": 1334,
+        "width": 100,
+      }
+    }
+  >
+    <View
+      accessible={true}
+      isTVSelectable={true}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "height": 100,
+          "opacity": 1,
+          "position": "absolute",
+          "width": 100,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "backgroundColor": "orange",
+            "borderRadius": 50,
+            "height": 100,
+            "position": "absolute",
+            "width": 100,
+          }
+        }
+      />
+    </View>
+  </View>
+  <View
+    style={
+      Object {
+        "height": 100,
+        "left": 11,
+        "position": "absolute",
+        "top": 1334,
+        "width": 100,
+      }
+    }
+  >
+    <View
+      accessible={true}
+      isTVSelectable={true}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "height": 100,
+          "opacity": 1,
+          "position": "absolute",
+          "width": 100,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "backgroundColor": "red",
+            "borderRadius": 50,
+            "height": 100,
+            "position": "absolute",
+            "width": 100,
+          }
+        }
+      />
+    </View>
+  </View>
+</View>
+`;

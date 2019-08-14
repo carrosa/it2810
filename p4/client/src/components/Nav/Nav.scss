@@ -1,0 +1,65 @@
+@import "../../styles/colors";
+@import "../../styles/mixins";
+
+.row {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+}
+
+.username {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  &--label {
+    padding-right: 1rem;
+    font-size: larger;
+    transform: translate(15%, 15%);
+    margin: 0;
+    text-shadow: 1px 1px gray;
+  }
+}
+
+.navbar {
+  position: absolute;
+  border-bottom: black 1px solid;
+  width: 100%;
+  top: 0;
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  &--search {
+    height: 100%;
+    & label {
+      color: white;
+    }
+  }
+  &--home {
+    @include link-effects(); // TODO: Does not work??
+    margin-left: 1rem;
+  }
+  &--dropdown {
+    float: left;
+    overflow: hidden;
+    margin-right: 1rem;
+    &--btn {
+
+    }
+    &--content {
+      display: none;
+      position: absolute;
+      background-color: #f9f9f9;
+      width: inherit;
+      box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+      padding: 12px 16px;
+      z-index: 1;
+      & p {
+        @include link-effects();
+      }
+    }
+    &:hover &--content {
+      display: flex;
+      flex-flow: column;
+    }
+  }
+}

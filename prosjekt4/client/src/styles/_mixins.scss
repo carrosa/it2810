@@ -1,0 +1,27 @@
+@import "colors";
+// links
+@mixin link-effects() {
+  color: $info;
+  cursor: pointer;
+  &:visited {
+    color: $info;
+  }
+  &:hover {
+    filter: brightness($darken-percent);
+  }
+  &:active {
+    filter: brightness($darken-percent);
+  }
+}
+
+@mixin center() {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+@mixin backdrop() {
+  z-index: 2;
+  background: $backdrop;
+}

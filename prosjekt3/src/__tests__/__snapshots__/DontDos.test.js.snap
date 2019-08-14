@@ -1,0 +1,285 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<DontDos /> tests <DontDos /> renders correctly 1`] = `null`;
+
+exports[`<DontDos /> tests Test: createToDontCards 1`] = `
+Array [
+  <Hr
+    fontSize={20}
+    lineColor="#000"
+    text="Ikke ferdig"
+    thickness={3}
+  />,
+  <withTheme(Card)
+    elevation={5}
+    style={
+      Object {
+        "flexDirection": "row",
+        "marginBottom": 10,
+        "marginLeft": 10,
+        "marginRight": 10,
+        "marginTop": 10,
+      }
+    }
+    theme={
+      Object {
+        "colors": Object {
+          "accent": "#03dac4",
+          "backdrop": "rgba(0, 0, 0, 0.5)",
+          "background": "#f6f6f6",
+          "disabled": "rgba(0, 0, 0, 0.26)",
+          "error": "#B00020",
+          "placeholder": "rgba(0, 0, 0, 0.54)",
+          "primary": "#6200ee",
+          "surface": "#ffffff",
+          "text": "#000000",
+        },
+        "dark": false,
+        "fonts": Object {
+          "light": "HelveticaNeue-Light",
+          "medium": "HelveticaNeue-Medium",
+          "regular": "Helvetica Neue",
+          "thin": "HelveticaNeue-Thin",
+        },
+        "roundness": 4,
+      }
+    }
+  >
+    <Card.Content>
+      <Title>
+        Tittel 3
+      </Title>
+      <Paragraph>
+        Content 3
+      </Paragraph>
+    </Card.Content>
+    <withTheme(Divider) />
+    <Card.Actions>
+      <withTheme(Button)
+        mode="text"
+        onPress={[Function]}
+      >
+        Marker som ferdig
+      </withTheme(Button)>
+    </Card.Actions>
+  </withTheme(Card)>,
+  <withTheme(Card)
+    elevation={5}
+    style={
+      Object {
+        "flexDirection": "row",
+        "marginBottom": 10,
+        "marginLeft": 10,
+        "marginRight": 10,
+        "marginTop": 10,
+      }
+    }
+    theme={
+      Object {
+        "colors": Object {
+          "accent": "#03dac4",
+          "backdrop": "rgba(0, 0, 0, 0.5)",
+          "background": "#f6f6f6",
+          "disabled": "rgba(0, 0, 0, 0.26)",
+          "error": "#B00020",
+          "placeholder": "rgba(0, 0, 0, 0.54)",
+          "primary": "#6200ee",
+          "surface": "#ffffff",
+          "text": "#000000",
+        },
+        "dark": false,
+        "fonts": Object {
+          "light": "HelveticaNeue-Light",
+          "medium": "HelveticaNeue-Medium",
+          "regular": "Helvetica Neue",
+          "thin": "HelveticaNeue-Thin",
+        },
+        "roundness": 4,
+      }
+    }
+  >
+    <Card.Content>
+      <Title>
+        Tittel 1
+      </Title>
+      <Paragraph>
+        Content 1
+      </Paragraph>
+    </Card.Content>
+    <withTheme(Divider) />
+    <Card.Actions>
+      <withTheme(Button)
+        mode="text"
+        onPress={[Function]}
+      >
+        Marker som ferdig
+      </withTheme(Button)>
+    </Card.Actions>
+  </withTheme(Card)>,
+  <Hr
+    fontSize={20}
+    lineColor="#000"
+    text="Ferdig"
+    thickness={3}
+  />,
+  <withTheme(Card)
+    elevation={5}
+    style={
+      Object {
+        "flexDirection": "row",
+        "marginBottom": 10,
+        "marginLeft": 10,
+        "marginRight": 10,
+        "marginTop": 10,
+      }
+    }
+    theme={
+      Object {
+        "colors": Object {
+          "accent": "#03dac4",
+          "backdrop": "rgba(0, 0, 0, 0.5)",
+          "background": "#242424",
+          "disabled": "rgba(255, 255, 255, 0.3)",
+          "error": "#ff1744",
+          "placeholder": "rgba(255, 255, 255, 0.54)",
+          "primary": "#03a9f4",
+          "surface": "#424242",
+          "text": "#ffffff",
+        },
+        "dark": true,
+        "fonts": Object {
+          "light": "HelveticaNeue-Light",
+          "medium": "HelveticaNeue-Medium",
+          "regular": "Helvetica Neue",
+          "thin": "HelveticaNeue-Thin",
+        },
+        "roundness": 4,
+      }
+    }
+  >
+    <Card.Content>
+      <Title>
+        Tittel 4
+      </Title>
+      <Paragraph>
+        Content 4
+      </Paragraph>
+    </Card.Content>
+    <withTheme(Divider) />
+    <Card.Actions>
+      <withTheme(Button)
+        mode="text"
+        onPress={[Function]}
+      >
+        Marker som uferdig
+      </withTheme(Button)>
+    </Card.Actions>
+  </withTheme(Card)>,
+  <withTheme(Card)
+    elevation={5}
+    style={
+      Object {
+        "flexDirection": "row",
+        "marginBottom": 10,
+        "marginLeft": 10,
+        "marginRight": 10,
+        "marginTop": 10,
+      }
+    }
+    theme={
+      Object {
+        "colors": Object {
+          "accent": "#03dac4",
+          "backdrop": "rgba(0, 0, 0, 0.5)",
+          "background": "#242424",
+          "disabled": "rgba(255, 255, 255, 0.3)",
+          "error": "#ff1744",
+          "placeholder": "rgba(255, 255, 255, 0.54)",
+          "primary": "#03a9f4",
+          "surface": "#424242",
+          "text": "#ffffff",
+        },
+        "dark": true,
+        "fonts": Object {
+          "light": "HelveticaNeue-Light",
+          "medium": "HelveticaNeue-Medium",
+          "regular": "Helvetica Neue",
+          "thin": "HelveticaNeue-Thin",
+        },
+        "roundness": 4,
+      }
+    }
+  >
+    <Card.Content>
+      <Title>
+        Tittel 2
+      </Title>
+      <Paragraph>
+        Content 2
+      </Paragraph>
+    </Card.Content>
+    <withTheme(Divider) />
+    <Card.Actions>
+      <withTheme(Button)
+        mode="text"
+        onPress={[Function]}
+      >
+        Marker som uferdig
+      </withTheme(Button)>
+    </Card.Actions>
+  </withTheme(Card)>,
+  <withTheme(Card)
+    elevation={5}
+    style={
+      Object {
+        "flexDirection": "row",
+        "marginBottom": 10,
+        "marginLeft": 10,
+        "marginRight": 10,
+        "marginTop": 10,
+      }
+    }
+    theme={
+      Object {
+        "colors": Object {
+          "accent": "#03dac4",
+          "backdrop": "rgba(0, 0, 0, 0.5)",
+          "background": "#242424",
+          "disabled": "rgba(255, 255, 255, 0.3)",
+          "error": "#ff1744",
+          "placeholder": "rgba(255, 255, 255, 0.54)",
+          "primary": "#03a9f4",
+          "surface": "#424242",
+          "text": "#ffffff",
+        },
+        "dark": true,
+        "fonts": Object {
+          "light": "HelveticaNeue-Light",
+          "medium": "HelveticaNeue-Medium",
+          "regular": "Helvetica Neue",
+          "thin": "HelveticaNeue-Thin",
+        },
+        "roundness": 4,
+      }
+    }
+  >
+    <Card.Content>
+      <Title>
+        Tittel 0
+      </Title>
+      <Paragraph>
+        Content 0
+      </Paragraph>
+    </Card.Content>
+    <withTheme(Divider) />
+    <Card.Actions>
+      <withTheme(Button)
+        mode="text"
+        onPress={[Function]}
+      >
+        Marker som uferdig
+      </withTheme(Button)>
+    </Card.Actions>
+  </withTheme(Card)>,
+]
+`;

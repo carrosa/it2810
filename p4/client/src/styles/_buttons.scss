@@ -1,0 +1,75 @@
+@import "colors";
+// Btn
+.btn {
+  padding: 5px 10px;
+  font-size: 18px;
+  border-radius: 3px;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+  transition: all 0.3s;
+  letter-spacing: 1px;
+  border: 1px solid $outline;
+  display: inline-block;
+  color: #fff;
+  background-color: $interactive_dark;
+  text-decoration: none;
+  text-shadow: rgba(0, 0, 0, 0.3) 1px 1px;
+  &:disabled {
+    filter: opacity(30%);
+    cursor: default;
+    pointer-events: none;
+  }
+  &:hover {
+    filter: brightness(120%);
+  }
+  &.active {
+    background-color: $primary;
+    color: $primary-contrast;
+  }
+  &-large {
+    font-size: 24px;
+    padding: 25px 50px;
+    font-weight: 700;
+    border-radius: 5px;
+  }
+  &-success {
+    background-color: $success;
+    color: $success-contrast;
+  }
+  &-default {
+    background-color: $default;
+    color: $default-contrast;
+  }
+  &-info {
+    background-color: $info;
+    color: $info-contrast;
+  }
+  &-primary {
+    background-color: $primary;
+    color: $primary-contrast;
+  }
+  &-danger {
+    background-color: $danger;
+    color: $danger-contrast;
+  }
+  &-warning {
+    background-color: $warning;
+    color: $warning-contrast;
+  }
+  &-transparent {
+    background-color: transparent;
+    color: white;
+    border: none;
+  }
+  &-text {
+    background-color: transparent;
+    color: white;
+    border: none;
+    padding: 0.1rem;
+    text-decoration: underline;
+    &:hover {
+      color: rgb(179, 179, 179);
+    }
+  }
+}
